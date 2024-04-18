@@ -14,12 +14,9 @@ body{
   justify-content: center;
 }
 
-#game .table {
-border: solid black 2px;
-}
-
 #p1-color {
   width: 168px;  
+  background-color: darkgray;
 }
 
 #start-game {
@@ -34,16 +31,12 @@ border: solid black 2px;
   border: solid 2px #666;
 }
 
-/* pieces are div within game table cells: draw as colored circles */
-
 .piece {
   margin: 5px;
   width: 80%;
   height: 80%;
   border-radius: 50%;
 }
-
-/* column-top is table row of clickable areas for each column */
 
 #column-top td {
   border: dashed 2px lightgray;
